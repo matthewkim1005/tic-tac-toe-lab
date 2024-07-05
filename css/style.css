@@ -1,0 +1,36 @@
+body {
+    background-color: gainsboro;
+    font-family: system-ui, sans-serif;
+    margin: 0;
+  }
+  
+  .board {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 325px;
+  }
+  
+  .sqr {
+    width: 30%;
+    aspect-ratio: 1/1;
+    border: 3px solid black;
+    font-size: 64px;
+    text-align: center;
+  }
+
+  .reset {
+    margin: auto;
+    color: white;
+    background-color: blue;
+    display: block;
+  }
+
+  #message {
+    text-align: center;
+  }
+
+  h1 {
+    text-align: center;
+  }
+  
